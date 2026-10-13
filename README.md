@@ -4,7 +4,7 @@ This project uses a genetic algorithm to estimate the parameters of the Lotka-Vo
 
 Everything is in one notebook: `Lynx_Hare_GA_Project.ipynb`.
 
-The GA runs and converges, but the fit to the real data is weak. Results and reasons are explained below.
+The GA runs and converges, results and reasons are explained below.
 
 ## The idea
 
