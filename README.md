@@ -1,10 +1,10 @@
-# Fitting Lotka-Volterra to the Lynx-Hare Data with a Genetic Algorithm
+# Lynx-Hare Population Fitting with a Genetic Algorithm
 
-A university project where I try to estimate the four parameters of the Lotka-Volterra predator-prey model by evolving them with a genetic algorithm, instead of using a gradient-based fitter. The data is the classic Hudson's Bay Company fur-trading record of snowshoe hare and Canada lynx pelts.
+This project uses a genetic algorithm to estimate the parameters of the Lotka-Volterra predator-prey model, using the Hudson's Bay Company lynx and hare data (1845-1935).
 
-Everything lives in one notebook: `Lynx_Hare_GA_Project.ipynb`.
+Everything is in one notebook: `Lynx_Hare_GA_Project.ipynb`.
 
-**Short version of the outcome:** the GA runs, converges, and lands on a stable answer, but the fit to the real data is weak. I've kept the honest numbers and a discussion of why further down.
+The GA runs and converges, but the fit to the real data is weak. Results and reasons are explained below.
 
 ## The idea
 
@@ -123,7 +123,7 @@ What the figures show:
 ## Running it
 
 ```bash
-git clone https://github.com/<your-username>/Lynx_Hare_GA_Project.git
+git clone https://github.com/Termdamp/Lynx_Hare_GA_Project
 cd Lynx_Hare_GA_Project
 
 python -m venv .venv
@@ -156,4 +156,4 @@ Heads up: the notebook calls `pd.read_csv(..., delim_whitespace=True)`, which is
 
 ## License
 
-MIT, see [LICENSE](LICENSE). Replace the name in the license file with yours.
+MIT, see [LICENSE](LICENSE).
